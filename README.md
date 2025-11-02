@@ -5,6 +5,43 @@
 
 ## 📁 디렉토리 구조
 
+my-study-sandbox/
+├─ README.md
+├─ frontend/
+│  ├─ README.md
+│  ├─ javascript/
+│  ├─ typescript/
+│  ├─ react/
+│  ├─ nextjs/
+│  ├─ tanstack-query/
+│  ├─ state/
+│  ├─ api/
+│  ├─ css-ui/
+│  ├─ accessibility/
+│  ├─ perf/
+│  ├─ testing/
+│  ├─ storybook/
+│  ├─ tooling/
+│  ├─ devops/
+│  ├─ monorepo/
+│  ├─ micro-frontend/
+│  ├─ mobile-webview/
+│  ├─ canvas/
+│  ├─ threejs/
+│  └─ ai-tools/
+├─ backend/
+│  ├─ README.md
+│  ├─ nodejs/
+│  ├─ java/
+│  ├─ python/
+│  └─ databases/
+├─ linux/
+├─ security/
+├─ game-dev/
+│  ├─ cpp/
+│  └─ csharp/
+└─ notes/
+
 ## Frontend
 
 ### 기본 & 언어
