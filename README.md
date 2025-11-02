@@ -5,42 +5,49 @@
 
 ## 📁 디렉토리 구조
 
-my-study-sandbox/
-├─ README.md
-├─ frontend/
-│  ├─ README.md
-│  ├─ javascript/
-│  ├─ typescript/
-│  ├─ react/
-│  ├─ nextjs/
-│  ├─ tanstack-query/
-│  ├─ state/
-│  ├─ api/
-│  ├─ css-ui/
-│  ├─ accessibility/
-│  ├─ perf/
-│  ├─ testing/
-│  ├─ storybook/
-│  ├─ tooling/
-│  ├─ devops/
-│  ├─ monorepo/
-│  ├─ micro-frontend/
-│  ├─ mobile-webview/
-│  ├─ canvas/
-│  ├─ threejs/
-│  └─ ai-tools/
-├─ backend/
-│  ├─ README.md
-│  ├─ nodejs/
-│  ├─ java/
-│  ├─ python/
-│  └─ databases/
-├─ linux/
-├─ security/
-├─ game-dev/
-│  ├─ cpp/
-│  └─ csharp/
-└─ notes/
+# my-study-sandbox
+
+> 나의 미래지향적 개발자 학습 로드맵 저장소  
+> 우선순위: Frontend → Backend → Linux → Security → Game Dev(C# / C++)
+
+## 📁 디렉토리 구조
+
+```bash
+├── 📱 frontend/
+│   ├── 📝 javascript/           # JavaScript 기초 & 고급 문법
+│   ├── 🔷 typescript/           # TypeScript 타입 시스템
+│   ├── ⚛️ react/                # React 컴포넌트 & Hooks
+│   ├── ▲ nextjs/                # Next.js SSR/SSG
+│   ├── 🔄 tanstack-query/       # TanStack Query (React Query)
+│   ├── 💚 vue/                  # Vue.js Composition API
+│   ├── 🅰️ angular/              # Angular 프레임워크
+│   ├── 🗃️ state/                # Redux, Zustand, Recoil, Jotai
+│   ├── 🌐 api/                  # REST API, WebSocket, GraphQL, Apollo, Relay
+│   ├── 🎨 css-ui/               # TailwindCSS, Emotion, Styled-Components, Shadcn UI, Material UI, SASS/SCSS
+│   ├── ⚡ perf/                 # 렌더링/번들 최적화, 코드 스플리팅, Lazy Loading, 이미지/폰트 최적화, Lighthouse/Web Vitals
+│   ├── 🧪 testing/              # Jest, Vitest, RTL, Cypress, Playwright
+│   ├── 📚 storybook/            # Storybook & Component Driven Development
+│   ├── 🛠️ tooling/              # Vite, Webpack, Esbuild
+│   ├── 📦 monorepo/             # Turborepo, Nx
+│   ├── 🚀 devops/               # CI/CD, 클라우드 배포
+│   ├── 🖼️ canvas/               # HTML5 Canvas API, 2D 애니메이션, 게임/시각화
+│   ├── 🎲 threejs/              # Three.js, r3f, 3D 씬 구성, Mesh Manipulation
+│   └── 🤖 ai-tools/             # Generative AI 도구, AI 코드 자동화
+│
+├── 🔧 backend/
+│   ├── 💚 nodejs/               # Node.js, Express, Nest.js, REST API, WebSocket, GraphQL, JWT/OAuth2
+│   ├── ☕ java/                 # Java OOP, Spring Boot, Spring Data JPA, Hibernate, Spring Security, Kafka, RabbitMQ
+│   ├── 🐍 python/               # Python, FastAPI, Flask, Django, asyncio, pytest, Celery
+│   └── 🗄️ databases/            # MySQL, PostgreSQL, MongoDB, Redis, Prisma, TypeORM, 인덱스 최적화
+│
+├── 🐧 linux/                    # 기본 명령어, 파일 시스템, 사용자/권한 관리, 쉘 스크립트, 프로세스/로그, 네트워크/방화벽
+│
+├── 🔐 security/                 # XSS, CSRF, SQLi, OWASP Top10, 네트워크 취약점, 모의해킹, CTF
+│
+└── 🎮 game-dev/
+    ├── ⚙️ cpp/                  # C++ STL, OOP, 메모리 관리, 게임 루프, Unreal Engine
+    └── 🎯 csharp/               # C#, Unity 스크립트, Animation, UI, Physics, Addressable
+```
 
 ## Frontend
 
