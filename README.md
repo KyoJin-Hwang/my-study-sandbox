@@ -14,8 +14,8 @@
 
 ```bash
 ├── 📱 frontend/
-│   ├── 📝 javascript/           # JavaScript 기초 & 고급 문법
-│   ├── 🔷 typescript/           # TypeScript 타입 시스템
+│   ├── 📝 javascript/           # JavaScript
+│   ├── 🔷 typescript/           # TypeScript
 │   ├── ⚛️ react/                # React 컴포넌트 & Hooks
 │   ├── ▲ nextjs/                # Next.js SSR/SSG
 │   ├── 🔄 tanstack-query/       # TanStack Query (React Query)
@@ -52,10 +52,12 @@
 ## Frontend
 
 ### 기본 & 언어
+
 - [ ] [Javascript](frontend/javascript)
 - [ ] [Typescript](frontend/typescript)
 
 ### 프레임워크 / 라이브러리
+
 - [ ] [React](frontend/react)
 - [ ] [Next.js](frontend/nextjs)
 - [ ] [TanStack Query](frontend/tanstack-query)
@@ -63,11 +65,13 @@
 - [ ] [Angular](frontend/angular)
 
 ### 상태관리 / 통신
+
 - [ ] Redux / Zustand / Recoil / Jotai — `frontend/state`
 - [ ] REST API / WebSocket — `frontend/api`
 - [ ] GraphQL / Apollo / Relay — `frontend/api`
 
 ### 스타일링 / 퍼블리싱
+
 - [ ] TailwindCSS — `frontend/css-ui`
 - [ ] Emotion — `frontend/css-ui`
 - [ ] Styled-Components — `frontend/css-ui`
@@ -76,32 +80,38 @@
 - [ ] SASS / SCSS — `frontend/css-ui`
 
 ### 성능 / 최적화
+
 - [ ] 렌더링 최적화 / 번들 최적화 — `frontend/perf`
 - [ ] 코드 스플리팅 / Lazy Loading — `frontend/perf`
 - [ ] 이미지 / 폰트 최적화 — `frontend/perf`
 - [ ] Lighthouse / Web Vitals 분석 — `frontend/perf`
 
 ### 테스트 / 품질
+
 - [ ] 단위/통합 테스트 (Jest, Vitest, RTL) — `frontend/testing`
 - [ ] E2E 테스트 (Cypress / Playwright) — `frontend/testing`
 - [ ] Storybook / Component Driven Development — `frontend/storybook`
 
 ### 개발환경 / 빌드 / 배포
+
 - [ ] Vite / Webpack / Esbuild — `frontend/tooling`
 - [ ] Monorepo (Turborepo / Nx) — `frontend/monorepo`
 - [ ] CI/CD / 클라우드 배포 — `frontend/devops`
 
 ### Canvas & 2D 그래픽
+
 - [ ] HTML5 Canvas API 기초 — `frontend/canvas`
 - [ ] Canvas 애니메이션 / 상호작용 — `frontend/canvas`
 - [ ] 2D 게임/시각화 프로젝트 실습 — `frontend/canvas`
 
 ### 3D
+
 - [ ] Three.js / r3f — `frontend/threejs`
 - [ ] 기본 3D 씬 구성 / 카메라 / 조명 — `frontend/threejs`
 - [ ] Mesh Manipulation / 애니메이션 — `frontend/threejs`
 
 ### AI 활용
+
 - [ ] Generative AI 도구 — `frontend/ai-tools`
 - [ ] AI 기반 코드 자동화 / 최적화 — `frontend/ai-tools`
 
@@ -110,6 +120,7 @@
 ## Backend
 
 ### Node.js
+
 - [ ] Node.js 기본/비동기 처리 — `backend/nodejs`
 - [ ] Express / Nest.js — `backend/nodejs`
 - [ ] REST API / WebSocket — `backend/nodejs`
@@ -117,6 +128,7 @@
 - [ ] 인증/인가(JWT, OAuth2) — `backend/nodejs`
 
 ### Java
+
 - [ ] Java 기초 / OOP — `backend/java`
 - [ ] Spring Boot — `backend/java`
 - [ ] Spring Data JPA / Hibernate — `backend/java`
@@ -126,6 +138,7 @@
 - [ ] Docker / 배포 — `backend/java`
 
 ### Python
+
 - [ ] Python 기초 / 고급 문법 — `backend/python`
 - [ ] FastAPI / Flask — `backend/python`
 - [ ] Django / Django REST Framework — `backend/python`
@@ -136,6 +149,7 @@
 - [ ] Docker / 배포 — `backend/python`
 
 ### 데이터베이스
+
 - [ ] 관계형 DB (MySQL, PostgreSQL) — `backend/databases`
 - [ ] NoSQL (MongoDB, Redis) — `backend/databases`
 - [ ] ORM(Prisma, TypeORM) — `backend/databases`
@@ -144,6 +158,7 @@
 ---
 
 ## Linux
+
 - [ ] 기본 명령어 / 파일 시스템 — `linux`
 - [ ] 사용자 / 권한 / 그룹 관리 — `linux`
 - [ ] 쉘 스크립트 — `linux`
@@ -154,6 +169,7 @@
 ---
 
 ## Security
+
 - [ ] 웹 취약점 분석(XSS, CSRF, SQLi) — `security`
 - [ ] OWASP Top10 실습 — `security`
 - [ ] 네트워크 취약점 분석(포트 스캔, 패킷 분석) — `security`
@@ -163,13 +179,16 @@
 ---
 
 ## Game Dev (C# / C++)
+
 ### C++
+
 - [ ] C++ 문법 / STL — `game-dev/cpp`
 - [ ] 객체지향 / 메모리 관리 — `game-dev/cpp`
 - [ ] 게임 루프 / 렌더링 — `game-dev/cpp`
 - [ ] Unreal Engine 기초 — `game-dev/cpp`
 
 ### C# / Unity
+
 - [ ] C# / Unity 스크립트 — `game-dev/csharp`
 - [ ] Animation / UI / Physics — `game-dev/csharp`
 - [ ] Scene Management / Coroutine — `game-dev/csharp`
@@ -178,7 +197,8 @@
 ---
 
 ## 사용법
+
 - 각 폴더에 프로젝트 / 코드 / 노트를 추가
 - 완료 시 체크박스 `- [x]`로 변경
 - 상세 로드맵은 각 폴더 README에서 관리
-- 추가 및 수정 사항 있을시 무조건 바로 README 수정❗️ 
+- 추가 및 수정 사항 있을시 무조건 바로 README 수정❗️
